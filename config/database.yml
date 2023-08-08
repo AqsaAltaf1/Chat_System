@@ -82,5 +82,3 @@ test:
 production:
   <<: *default
   database: Chat_System_production
-  username: Chat_System
-  password: <%= ENV["CHAT_SYSTEM_DATABASE_PASSWORD"] %>
