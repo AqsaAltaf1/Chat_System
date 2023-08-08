@@ -72,3 +72,6 @@ group :test do
 end
 gem 'bootstrap', '~> 5.1', '>= 5.1.3'
 gem 'devise'
+gem "omniauth"
+gem "omniauth-google-oauth2"
+gem "omniauth-rails_csrf_protection", '~> 1.0'
