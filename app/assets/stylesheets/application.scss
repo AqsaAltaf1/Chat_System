@@ -14,3 +14,49 @@
  *= require_self
  */
  @import "bootstrap";
+ body{
+  // background-image:url("chat.webp");
+  // background-repeat: no-repeat;
+  // background-size: 100%;
+  font-family: sans-serif;
+  overflow-x: hidden; 
+ }
+ body a{
+  text-decoration: none;
+ }
+ .container-login{
+  width:25%;
+  padding:10px;
+ }
+ .btn1{
+  background-color: #68cae7;
+ }
+ .btn1:hover{
+  background-color: #68cae7;
+ }
+ .navbar{
+  background-color:#68cae7;
+}
+.navbar a{
+  text-decoration: none;
+  color:purple;
+  font-weight: 300;
+}
+.logo1{
+  height: 50px;
+}
+.link-in{
+  padding-left: 10px;
+}
+.img1{
+  width:107%;
+  height:100%;
+}
+.signup{
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.img2{
+  width:100%;
+  height:95%;
+}
