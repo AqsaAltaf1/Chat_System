@@ -2,6 +2,7 @@
   <div class='col-5 container-login'>
     <h2 class='text-center'>Log in</h2>
     <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+    
       <div class="field mt-3">
         <%= f.label :email %><br />
         <%= f.email_field :email, autofocus: true, autocomplete: "email", class: 'form-control' %>
@@ -19,7 +20,7 @@
         </div>
       <% end %>
 
-      <div class="actions mt-3">
+      <div class="actions mt-2">
         <%= f.submit "Log in",class: 'btn btn1' %>
       </div>
     <% end %>
@@ -30,5 +31,3 @@
     <%= image_tag("image1.png", class:'img2')%>
   </div>
 </div>
-  
-

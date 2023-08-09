@@ -11,9 +11,12 @@
   </head>
 
   <body>
-    <%= render 'shared/header' %>
-    <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
+    <%= render 'shared/header' %> 
+    <% flash.each do |key, message| %>
+      <div class="alert <%= flash_class(key) %> alert-dismissible fade show text-center" role="alert">
+        <%= message %>
+      </div>
+    <% end %>
     <%= yield %>
   </body>
 </html>
