@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+  validates :full_name, presence: true
   devise :database_authenticatable, :registerable,
   :recoverable, :rememberable, :validatable,:confirmable,
   :omniauthable, omniauth_providers: [:google_oauth2]
