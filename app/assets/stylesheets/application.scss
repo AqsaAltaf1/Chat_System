@@ -20,6 +20,7 @@
  }
  body a{
   text-decoration: none;
+  color: #3db9b3;
  }
  .container-login{
   width:25%;
@@ -88,8 +89,85 @@
   margin-top: 90px;
   width: 28%;
 }
-// .edit1{
-//   background-image:url("live.avif");
-//   background-repeat: no-repeat;
-//   background-size: 100%;
-// }
+.butt{
+  border: 0px;
+  background-color: white;
+  color:#22a6cd;
+  font-weight: 500;
+  padding:0px;
+}
+.msg-form {
+  position: fixed;
+  bottom: 0;
+  width: 90%
+}
+.col-md-10 {
+  height: 100vh;
+  overflow: scroll;
+}
+.msg-content {
+  width: 72%;
+}
+.message-box {
+  width: fit-content;
+  max-width: 40%;
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background-color: #c2e0eb ;
+  padding: 10px
+}
+.chat{
+  background: rgb(229, 233, 235) url("back.png") no-repeat center;
+  width: 78%;
+  padding-left: 0px;
+  margin-left: 260px;
+  padding-right: 0px;
+  height: 100vh;
+  overflow:scroll;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding-top: 80px;
+}
+.talk-bubble {
+	margin: 40px;
+  display: inline-block;
+  position: relative;
+	width: 200px;
+	height: auto;
+	background-color: lightyellow;
+}
+.border{
+  border: 8px solid #666;
+}
+.round{
+  border-radius: 30px;
+}
+.tri-right.border.btm-right:before {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: auto;
+	right: -8px;
+	bottom: -40px;
+	border: 20px solid;
+	border-color: #666 #666 transparent transparent;
+}
+.talktext{
+  padding:5px 5px 8px 5px;
+	text-align: left;
+  line-height: 1.5em;
+}
+.name{
+  font-weight: bold;
+  color: #3db9b3;
+}
+.contact{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  top:80px;
+  width: 300px;
+}
