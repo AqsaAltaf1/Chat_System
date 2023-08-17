@@ -6,4 +6,7 @@ Rails.application.routes.draw do
     registrations: 'users/registrations'
   }
   resources :users
+  resources :rooms do
+    resources :messages
+  end
 end

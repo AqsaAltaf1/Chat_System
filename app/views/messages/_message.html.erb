@@ -1,0 +1,11 @@
+<div class="cont-<%= message.user.id %>">
+  <div class="message-box talk-bubble tri-right round right-in msg-<%= message.user.id %> " >
+    <div class="talktext">
+      <% unless message.room.is_private %>
+        <h6 class="name"> <%= message.user.full_name %>:</h6>
+      <% end %>
+      <%= message.content %>
+    </div>
+  </div>
+</div>
+            
