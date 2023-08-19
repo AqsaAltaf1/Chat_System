@@ -21,7 +21,7 @@
     </div>
     <div class="col-9 chat vh-100" id="chatbox" data-controller="scroll">
       <% if @single_room %>
-        <h4 class="text-center"><%= @user&.full_name || @single_room.name %> </h4>
+        <h4 class="text-center head"><%= @user&.full_name || @single_room.name %> </h4>
         <%= turbo_stream_from @single_room %>
           <div id="messages">
             <%= render @messages %>
