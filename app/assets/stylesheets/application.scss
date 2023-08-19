@@ -123,9 +123,8 @@
   padding-left: 0px;
   margin-left: 260px;
   padding-right: 0px;
-  height: 100vh;
-  overflow:scroll;
   position: fixed;
+  height: 100vh;
   bottom: 0;
   right: 0;
   padding-top: 80px;
@@ -171,8 +170,22 @@
   top:80px;
   width: 300px;
 }
+<<<<<<< HEAD
 .head{
   position: fixed;
   z-index: -1;
   left: 770px;
+=======
+.profile-img{
+  border-radius: 100%;
+  width: 60px;
+  border: 1px solid orange;
+  margin-right: 10px;
+}
+.profile-img1{
+  border-radius: 100%;
+  width: 50px;
+  border: 1px solid orange;
+  margin-right: 10px;
+>>>>>>> a6cf137e695c935808267b7be20814f3abd49336
 }
