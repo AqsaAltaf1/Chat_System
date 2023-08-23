@@ -1,4 +1,4 @@
-<div>
+<div> 
   <% if user.avatar_url?%><%= image_tag user.avatar_url, class: 'profile-img'%>
   <% else %>
   <%=image_tag("profile.png",class:'profile-img1')%><%end%><%= link_to user.full_name, user %> 
