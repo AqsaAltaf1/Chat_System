@@ -57,6 +57,10 @@ group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
   gem "letter_opener"
+  gem "rspec-rails", "6.0.1"
+  gem "factory_bot_rails"
+  gem "faker"
+  gem 'capybara'
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
@@ -70,6 +74,8 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
+  gem 'rails-controller-testing'
+  gem 'simplecov', require: false
 end
 gem 'bootstrap', '~> 5.1', '>= 5.1.3'
 gem 'devise'

@@ -9,4 +9,5 @@ Rails.application.routes.draw do
   resources :rooms do
     resources :messages
   end
+  default_url_options :host => "localhost:300"
 end

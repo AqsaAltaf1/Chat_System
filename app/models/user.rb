@@ -1,5 +1,5 @@
 class User < ApplicationRecord
-  validates :full_name, presence: true
+  validates :full_name, presence: true, length: {minimum: 5}
   scope :all_except, ->(user) { where.not(id: user) }
   after_create_commit { broadcast_append_to "users" }
   has_many :messages, dependent: :destroy
